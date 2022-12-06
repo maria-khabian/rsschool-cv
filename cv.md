@@ -7,7 +7,7 @@
 - **_Phone_**: +48-570-497-901
 - **_E-mail_**: mariakhabian@gmail.com
 - **_Telegram_**: @mariakaral
-- **_GitHub_**: maria-khabian
+- **_GitHub_**: [maria-khabian](https://github.com/maria-khabian)
 
 ---
 
