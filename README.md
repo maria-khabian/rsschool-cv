@@ -1,1 +1,1 @@
-[**rsschool-CV**](https://maria-khabian.github.io/rsschool-cv/cv)
+[**rsschool-cv**](https://maria-khabian.github.io/rsschool-cv/cv)
