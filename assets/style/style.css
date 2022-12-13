@@ -1,0 +1,322 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("../fonts/Gilroy-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url("../fonts/Gilroy-Medium.ttf");
+    font-weight: 500;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+
+:root {
+    --main-color: #070707;
+    --help-color: #828282;
+    --grey-light: #F6F6F6;
+    --white: #FFFFFF;
+}
+
+.body {
+    min-height: 100vh;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--white);
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* NAVIGATIO */
+
+.nav-list{
+    height: 75px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--help-color);
+}
+
+.nav-link{
+    font-weight: 700;;
+    color: var(--help-color);
+    padding: 0 20px;
+}
+
+.nav-item:first-child .nav-link{
+    padding-left: 0;
+}
+
+.nav-item:last-child .nav-link{
+    padding-right: 0;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+/* PROFILE */
+
+.profile{
+    margin-top: 105px;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.profile-title {
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.profile-description {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+/* BUTTON-language */
+
+.language{
+    position: relative;
+}
+
+.profile-language {
+    position: absolute;
+    top: -45px;
+    right: 0px;
+    height: 20px;
+    width: 65px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+}
+
+.lang-line {
+    border-left: 2px solid var(--main-color) ;
+}
+
+.profile-img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* ABOUT ME */
+
+.section-title {
+    padding: 80px 0px 0px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.decription-aboutMe {
+    text-indent: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 800px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.decription-aboutMe:last-child{
+    padding-bottom: 0px;
+}
+
+/* SKILLS */
+
+.all-skills-list {
+    padding: 50px 0;
+    max-width: 730px;
+    /* margin: 0 -20px; */
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-item{
+    margin-bottom: 35px;
+    padding: 0 20px;
+}
+
+.title-item{
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* PORTFOLIO */
+
+.portfolio-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.title-page-portfolio{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 20px;
+    color: var(--help-color);
+}
+
+.title-page-portfolio:hover{
+    color: var(--main-color);
+}
+
+.portrolio-image:hover{
+    margin-top: -5px;
+    filter: drop-shadow(0px 4px 4px rgba(43, 50, 51, 0.25));
+    color: var(--main-color);
+}
+
+/* EDUCATION */
+
+.main-education{
+    margin-top: 80px;
+    padding-bottom: 50px;
+    background-color: var(--grey-light);
+}
+
+.main-education-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-education-list {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-education-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.main-education-item:last-child{
+    margin-bottom: 0px;
+}
+
+.main-education-item::before {
+    content: '';
+    position: absolute;
+    border: 1px solid var(--main-color);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 4px;
+    left: 0px;
+}
+
+/* CODE EXEMPLE */
+
+.codeExemple{
+    background-color: var(--grey-light);
+}
+
+.codeExemple-row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.codeExemple-descriptio{
+    padding-top: 15px;
+}
+
+.codeExemple-description-title{
+    text-align: center;
+}
+
+.codeExemple-descriptio-text{
+    width: 400px;
+    text-align: center;
+}
+
+/* CONTACTS */
+
+.contacts-list {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contacts-item a{
+    color: var(--main-color)
+}
+
+.contacts-item {
+    margin-bottom: 10px;
+}
+
+.contacts-item:last-child {
+    margin-bottom: 0px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 50px;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer-row{
+    height: 80px;
+    border-top: 1px solid var(--help-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link-GitNub {
+    display: flex;
+    align-items: center;
+}
+
+.footer-link-GitNub span{
+    color: var(--main-color);
+    margin-left: 15px;
+}
+
+/* Прилипающий header + */
+/* Перевод сайта - */
+/* Кнопка наверх - */
+/* Вылетающие заголовки - */
+
+
+
+
