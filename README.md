@@ -1,2 +1,2 @@
-[**rsschool-cv**](https://maria-khabian.github.io/rsschool-cv/cv)
-[**rsschool-cv-html**](https://maria-khabian.github.io/rsschool-cv/)
+[**Markdown-CV**](https://maria-khabian.github.io/rsschool-cv/cv)
+[**Website-CV**](https://maria-khabian.github.io/rsschool-cv/)
