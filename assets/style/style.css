@@ -3,14 +3,16 @@
     src: url("../fonts/Gilroy-Bold.ttf");
     font-weight: 700;
 }
+
 @font-face {
     font-family: Gilroy;
     src: url("../fonts/Gilroy-Medium.ttf");
     font-weight: 500;
 }
+
 html {
-    scroll-behavior: smooth; 
-  }
+    scroll-behavior: smooth;
+}
 
 :root {
     --main-color: #070707;
@@ -26,10 +28,9 @@ html {
     font-weight: 500;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -37,14 +38,14 @@ html {
     background-color: var(--white);
 }
 
-.container{
+.container {
     max-width: 1440px;
     margin: 0 auto;
 }
 
 /* NAVIGATIO */
 
-.nav-list{
+.nav-list {
     height: 75px;
     z-index: 1;
     display: flex;
@@ -53,32 +54,33 @@ html {
     border-bottom: 1px solid var(--help-color);
 }
 
-.nav-link{
-    font-weight: 700;;
+.nav-link {
+    font-weight: 700;
+    ;
     color: var(--help-color);
     padding: 0 20px;
 }
 
-.nav-item:first-child .nav-link{
+.nav-item:first-child .nav-link {
     padding-left: 0;
 }
 
-.nav-item:last-child .nav-link{
+.nav-item:last-child .nav-link {
     padding-right: 0;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     cursor: pointer;
     color: var(--main-color);
 }
 
-.main{
+.main {
     flex: 1 1 auto;
 }
 
 /* PROFILE */
 
-.profile{
+.profile {
     margin-top: 105px;
 }
 
@@ -101,7 +103,7 @@ html {
 
 /* BUTTON-language */
 
-.language{
+.language {
     position: relative;
 }
 
@@ -121,10 +123,10 @@ html {
 }
 
 .lang-line {
-    border-left: 2px solid var(--main-color) ;
+    border-left: 2px solid var(--main-color);
 }
 
-.profile-img{
+.profile-img {
     margin-top: 50px;
     width: 100%;
 }
@@ -150,7 +152,7 @@ html {
     text-align: center;
 }
 
-.decription-aboutMe:last-child{
+.decription-aboutMe:last-child {
     padding-bottom: 0px;
 }
 
@@ -159,19 +161,18 @@ html {
 .all-skills-list {
     padding: 50px 0;
     max-width: 730px;
-    /* margin: 0 -20px; */
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.skill-item{
+.skill-item {
     margin-bottom: 35px;
     padding: 0 20px;
 }
 
-.title-item{
+.title-item {
     text-align: center;
     margin-top: 15px;
 }
@@ -184,18 +185,18 @@ html {
     padding-top: 50px;
 }
 
-.title-page-portfolio{
+.title-page-portfolio {
     text-align: center;
     margin-top: 30px;
     padding: 0 20px;
     color: var(--help-color);
 }
 
-.title-page-portfolio:hover{
+.title-page-portfolio:hover {
     color: var(--main-color);
 }
 
-.portrolio-image:hover{
+.portrolio-image:hover {
     margin-top: -5px;
     filter: drop-shadow(0px 4px 4px rgba(43, 50, 51, 0.25));
     color: var(--main-color);
@@ -203,13 +204,13 @@ html {
 
 /* EDUCATION */
 
-.main-education{
+.main-education {
     margin-top: 80px;
     padding-bottom: 50px;
     background-color: var(--grey-light);
 }
 
-.main-education-row{
+.main-education-row {
     display: flex;
     justify-content: space-around;
 }
@@ -225,7 +226,7 @@ html {
     padding-left: 20px;
 }
 
-.main-education-item:last-child{
+.main-education-item:last-child {
     margin-bottom: 0px;
 }
 
@@ -242,25 +243,25 @@ html {
 
 /* CODE EXEMPLE */
 
-.codeExemple{
+.codeExemple {
     background-color: var(--grey-light);
 }
 
-.codeExemple-row{
+.codeExemple-row {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.codeExemple-descriptio{
+.codeExemple-descriptio {
     padding-top: 15px;
 }
 
-.codeExemple-description-title{
+.codeExemple-description-title {
     text-align: center;
 }
 
-.codeExemple-descriptio-text{
+.codeExemple-descriptio-text {
     width: 400px;
     text-align: center;
 }
@@ -273,7 +274,7 @@ html {
     padding-bottom: 50px;
 }
 
-.contacts-item a{
+.contacts-item a {
     color: var(--main-color)
 }
 
@@ -287,14 +288,14 @@ html {
 
 /* FOOTER */
 
-.footer{
+.footer {
     background-color: rgba(255, 255, 255, 0.9);
     margin-top: 50px;
     position: sticky;
     bottom: 0;
 }
 
-.footer-row{
+.footer-row {
     height: 80px;
     border-top: 1px solid var(--help-color);
     display: flex;
@@ -307,16 +308,7 @@ html {
     align-items: center;
 }
 
-.footer-link-GitNub span{
+.footer-link-GitNub span {
     color: var(--main-color);
     margin-left: 15px;
 }
-
-/* Прилипающий header + */
-/* Перевод сайта - */
-/* Кнопка наверх - */
-/* Вылетающие заголовки - */
-
-
-
-
